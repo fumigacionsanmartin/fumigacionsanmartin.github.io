@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FUMIGACION SAN MARTIN</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>FUMIGACION &#160 SAN &#160 MARTIN </h1>
+        <img id="header-image" src="imagenes\fumigador 01.png" alt="Header Image">
+    </header>
+
+    <nav>
+        <a href="https://wa.me/3725641328?text=Hola%20quiero%20realizar%20la%20siguiente%20consulta:" class="icon" target="_blank"><img src="imagenes\whatsappmosquito.jpg" alt="WhatsApp"></a>
+        <a href="https://www.facebook.com/TuPaginaDeFacebook" class="icon" target="_blank"><img src="imagenes\facebook cucaracha.jpg" alt="Facebook"></a>
+        <a href="https://www.instagram.com/TuCuentaDeInstagram" class="icon" target="_blank"><img src="imagenes\instragram rata.png" alt="Instagram"></a>
+    </nav>
+
+    <div class="catalog">
+        <div class="product-box" onclick="showDescription('product1')">
+            <img src="imagenes\patogenos.png" alt="Producto 1">
+            <p>PATÓGENOS</p>
+            <a href="https://wa.me/3725641328?text=Hola,%20consulta%20sobre%20la%20fumigación%20de%20patógenos" class="icon" target="_blank"><img src="imagenes\whatsappmosquito.jpg" alt="WhatsApp"></a>
+        </div>
+        
+        <div class="product-box" onclick="showDescription('product2')">
+            <img src="imagenes\antropodos.png" alt="Producto 2">
+            <p>ANTRÓPODOS</p>
+            <a href="https://wa.me/3725641328?text=Hola,%20consulta%20sobre%20la%20fumigación%20de%20antrópodos" class="icon" target="_blank"><img src="imagenes\whatsappmosquito.jpg" alt="WhatsApp"></a>
+        </div>
+       
+        <div class="product-box" onclick="showDescription('product3')">
+            <img src="imagenes\vertebrados.png" alt="Producto 3">
+            <p>VERTEBRADOS</p>
+            <a href="https://wa.me/3725641328?text=Hola,%20consulta%20sobre%20la%20fumigación%20de%20verterados" class="icon" target="_blank"><img src="imagenes\whatsappmosquito.jpg" alt="WhatsApp"></a>
+        </div>
+        
+
+        <!-- Agrega más productos según sea necesario -->
+    </div>
+
+    <div class="product-description" id="product1">
+        <span class="close-btn" onclick="hideDescription('product1')">&times;</span>
+        <h2>PATÓGENOS</h2>
+        <p>Bacterias<br>
+            Virus<br>
+            Hongos<br>
+            Parásitos</p>
+        <a href="https://wa.me/37254641328?text=Hola,%20consulta%20sobre%20la%20fumigación%20de%20patógenos" class="icon" target="_blank"><img src="imagenes\whatsappmosquito.jpg" alt="WhatsApp"></a>
+    </div>
+
+    <div class="product-description" id="product2">
+        <span class="close-btn" onclick="hideDescription('product2')">&times;</span>
+        <h2>ANTRÓPODOS</h2>
+        <p>Cucarachas<br>
+            Hormigas<br>
+            Arañas<br>
+            Pulgas<br>
+            Ácaros<br>
+            Piojos<br>
+            Chinches<br>
+            Mosquitos</p>
+        <a href="https://wa.me/3725641328?text=Hola,%20consulta%20sobre%20la%20fumigación%20de%20antrópodos" class="icon" target="_blank"><img src="imagenes\whatsappmosquito.jpg" alt="WhatsApp"></a>
+        </div>
+   
+    <div class="product-description" id="product3">
+        <span class="close-btn" onclick="hideDescription('product3')">&times;</span>
+        <h2>VERTEBRADOS</h2>
+        <p>ratas<br>
+            murcielagos<br>
+            viboras</p>
+        <a href="https://wa.me/3725641328?text=Hola,%20consulta%20sobre%20la%20fumigación%20de%20vertebrados" class="icon" target="_blank"><img src="imagenes\whatsappmosquito.jpg" alt="WhatsApp"></a>
+    </div>
+    
+
+    <footer>
+        <p>&copy; 2023 servicio domisanitario</p>
+        <p>WhatsApp: <a href="https://wa.me/3725641328?text=Hola%20quiero%20realizar%20la%20siguiente%20consulta" target="_blank">37254641328</a></p>
+        <p>Facebook: <a href="https://www.facebook.com/TuPaginaDeFacebook" target="_blank">PaginaDeFacebook</a></p>
+        <p>Instagram: <a href="https://www.instagram.com/TuCuentaDeInstagram" target="_blank">CuentaDeInstagram</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
